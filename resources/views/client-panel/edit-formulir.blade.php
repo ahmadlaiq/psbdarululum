@@ -159,23 +159,7 @@
                                             @enderror
                                         </div>
                                     </div>
-                                    <div class="form-group row mt-4">
-                                        <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Pendidikan
-                                            Formal
-                                            Terakhir</label>
-                                        <div class="col-sm-4">
-                                            <select class="form-select form-select-sm" aria-label=".form-select-sm example"
-                                                name="pendidikan_terakhir">
-                                                <option selected disabled>Pilih Pendidikan Terakhir</option>
-                                                <option value="SD/MI/Sederajat" @if (old('pendidikan_terakhir', $data->pendidikan_terakhir) == 'SD/MI/Sederajat') {{ 'selected' }} @endif>SD/MI/Sederajat
-                                                </option>
-                                                <option value="SMP/MTs/Sederajat" @if (old('pendidikan_terakhir', $data->pendidikan_terakhir) == 'SMP/MTs/Sederajat') {{ 'selected' }} @endif>SMP/MTs/Sederajat
-                                                </option>
-                                                <option value="SMA/MA/Sederajat" @if (old('pendidikan_terakhir', $data->pendidikan_terakhir) == 'SMA/MA/Sederajat') {{ 'selected' }} @endif>SMA/MA/Sederajat
-                                                </option>
-                                            </select>
-                                        </div>
-                                    </div>
+                                    
                                     <hr class="mt-3 mb-3" />
                                     <div class="form-group row">
                                         <label class="col-sm-2 col-form-label col-form-label-sm">Provinsi</label>
@@ -500,9 +484,7 @@
                     </div>
                     <div class="tab-pane fade" id="dataPendidikan" role="tabpanel" aria-labelledby="dataPendidikan-tab">
                         <div class="card">
-                            <div class="card-header text-dark">
-                                <strong>Rencana Pendidikan</strong>
-                            </div>
+                            
                             <div class="card-body">
                                 <div class="form-group row mt-4">
                                     <label class="col-sm-2 col-form-label col-form-label-sm">Mondok</label>

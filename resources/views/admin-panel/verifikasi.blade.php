@@ -300,18 +300,7 @@
                                                                             value="{{ $f->tinggal_bersama }}">
                                                                     </div>
                                                                 </div>
-                                                                <div class="form-group row mt-4">
-                                                                    <label for="colFormLabelSm"
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Pendidikan
-                                                                        Formal
-                                                                        Terakhir</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            id="colFormLabelSm" disabled
-                                                                            value="{{ $f->pendidikan_terakhir }}">
-                                                                    </div>
-                                                                </div>
+                                                                
                                                                 <hr class="mt-3 mb-3" />
                                                                 <div class="form-group row">
                                                                     <label for="colFormLabelSm"

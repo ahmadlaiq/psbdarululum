@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Pendaftaran Santri Baru - Fatchul Ulum Pacet</title>
+    <title>Pendaftaran Siswa Baru - Darul Ulum Kenongo</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -45,7 +45,7 @@
         <div class="container d-flex align-items-center justify-content-between">
 
             <div class="logo">
-                <h4><a href="/"><img src="assets/img/hero-img.png" alt=""><span>PSB Fatchul Ulum Pacet</span></a></h4>
+                <h4><a href="/"><img src="assets/img/hero-img.png" alt=""><span>PSB Darul Ulum Kenongo</span></a></h4>
                 <!-- Uncomment below if you prefer to use an image logo -->
             </div>
 

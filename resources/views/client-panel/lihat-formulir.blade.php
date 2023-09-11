@@ -108,14 +108,7 @@
                                             value="{{ $data->tinggal_bersama }}" disabled>
                                     </div>
                                 </div>
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Pendidikan Formal
-                                        Terakhir</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->pendidikan_terakhir }}" disabled>
-                                    </div>
-                                </div>
+                               
                                 <hr class="mt-3 mb-3" />
                                 <div class="form-group row">
                                     <label class="col-sm-2 col-form-label col-form-label-sm">Provinsi</label>
@@ -348,10 +341,6 @@
                 </div>
                 <div class="tab-pane fade" id="dataPendidikan" role="tabpanel" aria-labelledby="dataPendidikan-tab">
                     <div class="card">
-
-                        <div class="card-header text-dark">
-                            <strong>Rencana Pendidikan</strong>
-                        </div>
                         <div class="card-body">
                             <div class="form-group row mt-4">
                                 <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Mondok</label>

@@ -126,51 +126,6 @@
                                                 </div>
                                                 <div class="col">
                                                     <div class="card h-100 card border-success mb-3 text-center">
-                                                        @if ($f->berkas->ijazah)
-                                                            <img src="{{ asset('storage/' . $f->berkas->ijazah) }}"
-                                                                class="card-img-top" alt="Akta Kelahiran">
-                                                        @else
-                                                            <img src="{{ asset('assets/img/null.png') }}"
-                                                                class="card-img-top" alt="Ijazah Terakhir">
-                                                        @endif
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">Ijazah Terakhir</h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
-                                                <div class="col">
-                                                    <div class="card h-100 card border-success mb-3 text-center">
-                                                        @if ($f->berkas->shun)
-                                                            <img src="{{ asset('storage/' . $f->berkas->shun) }}"
-                                                                class="card-img-top" alt="Akta Kelahiran">
-                                                        @else
-                                                            <img src="{{ asset('assets/img/null.png') }}"
-                                                                class="card-img-top" alt="Ijazah Terakhir">
-                                                        @endif
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">SHUN Terakhir</h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col">
-                                                    <div class="card h-100 card border-success mb-3 text-center">
-                                                        @if ($f->berkas->nisn)
-                                                            <img src="{{ asset('storage/' . $f->berkas->nisn) }}"
-                                                                class="card-img-top" alt="Akta Kelahiran">
-                                                        @else
-                                                            <img src="{{ asset('assets/img/null.png') }}"
-                                                                class="card-img-top" alt="Ijazah Terakhir">
-                                                        @endif
-                                                        <div class="card-body">
-                                                            <h5 class="card-title">NISN Terakhir</h5>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col">
-                                                    <div class="card h-100 card border-success mb-3 text-center">
                                                         @if ($f->berkas->ktp)
                                                             <img src="{{ asset('storage/' . $f->berkas->ktp) }}"
                                                                 class="card-img-top" alt="Akta Kelahiran">
@@ -208,7 +163,7 @@
                                                 <li class="nav-item">
                                                     <a class="nav-link active" id="dataSantri-tab" data-toggle="pill"
                                                         href="#dataSantri" role="tab" aria-controls="dataSantri"
-                                                        aria-selected="true">Biodata Santri</a>
+                                                        aria-selected="true">Biodata Siswa</a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a class="nav-link" id="dataAyah-tab" data-toggle="pill"
@@ -225,11 +180,7 @@
                                                         href="#dataWali" role="tab" aria-controls="dataWali"
                                                         aria-selected="false">Biodata Wali</a>
                                                 </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" id="dataWali-tab" data-toggle="pill"
-                                                        href="#dataPendidikan" role="tab" aria-controls="#dataPendidikan"
-                                                        aria-selected="false">Rencana Pendidikan</a>
-                                                </li>
+                                                
                                             </ul>
 
                                             <div class="container">
@@ -339,18 +290,6 @@
                                                                             value="{{ $f->tinggal_bersama }}">
                                                                     </div>
                                                                 </div>
-                                                                <div class="form-group row mt-4">
-                                                                    <label for="colFormLabelSm"
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Pendidikan
-                                                                        Formal
-                                                                        Terakhir</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            id="colFormLabelSm" disabled
-                                                                            value="{{ $f->pendidikan_terakhir }}">
-                                                                    </div>
-                                                                </div>
                                                                 <hr class="mt-3 mb-3" />
                                                                 <div class="form-group row">
                                                                     <label for="colFormLabelSm"
@@ -408,154 +347,6 @@
                                                                         <input type="text"
                                                                             class="form-control form-control-sm"
                                                                             value="{{ $f->nomor_hp }}" disabled>
-                                                                    </div>
-                                                                </div>
-                                                                <hr class="mt-3 mb-3" />
-                                                                <div class="form-group row mt-4">
-                                                                    <label
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Nomor
-                                                                        Peserta Ujian Nasional</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            value="{{ $f->nomor_un }}" disabled>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="form-group row mt-4">
-                                                                    <label for="colFormLabelSm"
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Pendidikan
-                                                                        Non-Formal Terakhir</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            id="colFormLabelSm" disabled
-                                                                            value="{{ $f->pendidikan_nonformal }}">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="form-group row mt-4">
-                                                                    <label for="colFormLabelSm"
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Nama
-                                                                        Lembaga Pendidikan</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            id="colFormLabelSm" disabled
-                                                                            {{ $f->nama_lembaga }}>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="form-group row mt-4">
-                                                                    <label for="colFormLabelSm"
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Alamat
-                                                                        Lembaga Pendidikan</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            id="colFormLabelSm" disabled
-                                                                            {{ $f->alamat_lembaga }}>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="form-group row mt-4">
-                                                                    <label for="colFormLabelSm"
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Tahun
-                                                                        Lulus</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            id="colFormLabelSm" disabled
-                                                                            {{ $f->tahun_lulus }}>
-                                                                    </div>
-                                                                </div>
-                                                                <hr class="mt-3 mb-3" />
-                                                                <div class="form-group row mt-4">
-                                                                    <label
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Tanggal,Bulan
-                                                                        Tahun
-                                                                        Masuk pesantren</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            value="{{ date('d-m-Y', strtotime($f->tanggal_masuk_pesantren)) }}"
-                                                                            disabled>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="form-group row mt-4">
-                                                                    <label
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Jenis
-                                                                        Pendidikan
-                                                                        Tambahan</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            value="{{ $f->pendidikan_tambahan }}"
-                                                                            disabled>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="form-group row mt-4">
-                                                                    <label
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Pendidikan
-                                                                        Formal</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            value="{{ $f->pendidikan_formal }}" disabled>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="form-group row mt-4">
-                                                                    <label
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Kelas
-                                                                        Pendidikan
-                                                                        Formal</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            value="{{ $f->kelas_pendidikan_formal }}"
-                                                                            disabled>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="form-group row mt-4">
-                                                                    <label
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Pendidikan
-                                                                        Diniyyah</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            value="{{ $f->diniyyah }}" disabled>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="form-group row mt-4">
-                                                                    <label
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Kelas
-                                                                        Pendidikan
-                                                                        Diniyyah</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            value="{{ $f->kelas_diniyyah }}" disabled>
-                                                                    </div>
-                                                                </div>
-                                                                <hr class="mt-3 mb-3" />
-                                                                <div class="form-group row mt-4">
-                                                                    <label
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Nama
-                                                                        Kepala
-                                                                        Keluarga</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            value="{{ $f->nama_kepala_keluarga }}"
-                                                                            disabled>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="form-group row mt-4">
-                                                                    <label
-                                                                        class="col-sm-2 col-form-label col-form-label-sm text-dark">Status
-                                                                        Kepala
-                                                                        Keluarga</label>
-                                                                    <div class="col-sm-4">
-                                                                        <input type="text"
-                                                                            class="form-control form-control-sm"
-                                                                            value="{{ $f->status_kepala_keluarga }}"
-                                                                            disabled>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -790,9 +581,7 @@
                                                     </div>
                                                     <div class="tab-pane fade" id="dataPendidikan" role="tabpanel"
                                                         aria-labelledby="dataPendidikan-tab">
-                                                        <div class="card-header mt-4 text-dark">
-                                                            <strong>Rencana Pendidikan</strong>
-                                                        </div>
+                                                        
                                                         <div class="card-body">
                                                             <div class="form-group row mt-4">
                                                                 <label for="colFormLabelSm"

@@ -229,17 +229,11 @@
                             <p style="margin-left: 30px">sebanyak 5 lembar</p>
                             <li><i class="bi bi-check"></i> <strong>Photo Copy Kartu Keluarga (KK</strong>)</li>
                             <p style="margin-left: 30px">sebanyak 5 lembar</p>
-                            <li><i class="bi bi-check"></i> <strong>Photo Copy Ijazah terakhir Dilegalisir</strong>
-                            </li>
-                            <p style="margin-left: 30px">sebanyak 5 lembar</p>
-                            <li><i class="bi bi-check"></i> <strong>Photo Copy NISN</strong></li>
-                            <p style="margin-left: 30px">sebanyak 5 lembar</p>
                             <li><i class="bi bi-check"></i> <strong>Photo Copy KTP orang tua/wali</strong></li>
                             <p style="margin-left: 30px">sebanyak 5 lembar</p>
                             <li><i class="bi bi-check"></i> <strong>Pas Photo 3x4 Backround Merah</strong></li>
                             <p style="margin-left: 30px">sebanyak 5 lembar</p>
-                            <li><i class="bi bi-check"></i> <strong>Surat Keterangan Lulus</strong></li>
-                            <p style="margin-left: 30px">sebanyak 1 lembar</p>
+                            
                         </ul>
                     </div>
                 </div>
