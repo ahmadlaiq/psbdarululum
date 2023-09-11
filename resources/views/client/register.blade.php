@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Pendaftaran Santri Baru - Fatchul Ulum Pacet</title>
+    <title>Pendaftaran Siswa Baru - Darul Ulum Kenongo</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -45,7 +45,7 @@
         <div class="container d-flex align-items-center justify-content-between">
 
             <div class="logo">
-                <h4><a href="/"><img src="assets/img/hero-img.png" alt=""><span>PSB Fatchul Ulum Pacet</span></a></h4>
+                <h4><a href="/"><img src="assets/img/hero-img.png" alt=""><span>PSB Darul Ulum Kenongo</span></a></h4>
                 <!-- Uncomment below if you prefer to use an image logo -->
             </div>
 
@@ -286,85 +286,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-header mt-4">
-                            <strong>Rencana Pendidikan</strong>
-                        </div>
                         <div class="card-body">
-                            <div class="form-group row mt-4">
-                                <label class="col-sm-2 col-form-label col-form-label-sm">Mondok</label>
-                                <div class="col-sm-6">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="mondok" value="Ya"
-                                            {{ old('mondok') == 'Ya' ? 'checked' : '' }}>
-                                        <label class="form-check-label">Ya</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="mondok" value="Tidak"
-                                            {{ old('mondok') == 'Tidak' ? 'checked' : '' }}>
-                                        <label class="form-check-label">Tidak</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group row mt-2">
-                                <label class="col-sm-2 col-form-label col-form-label-sm">Jenis Pendaftaran</label>
-                                <div class="col-sm-3">
-                                    <select class="form-select form-select-sm " aria-label=".form-select-sm example"
-                                        name="jenis_pendaftaran">
-                                        <option selected disabled>Pilih Jenis Pendaftaran</option>
-                                        <option value="Baru" @if (old('jenis_pendaftaran') == 'Baru') {{ 'selected' }} @endif>Baru</option>
-                                        <option value="Mutasi" @if (old('jenis_pendaftaran') == 'Mutasi') {{ 'selected' }} @endif>Mutasi</option>
-                                        <option value="Tidak Sekolah / Ngabdi" @if (old('jenis_pendaftaran') == 'Tidak Sekolah / Ngabdi') {{ 'selected' }} @endif>Tidak Sekolah / Ngabdi</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group row mt-4">
-                                <label class="col-sm-2 col-form-label col-form-label-sm">Lembaga</label>
-                                <div class="col-sm-3">
-                                    <select class="form-select form-select-sm" aria-label=".form-select-sm example"
-                                        name="lembaga">
-                                        <option selected disabled>Pilih Lembaga</option>
-                                        <option value="SMP Walisongo Pacet" @if (old('lembaga') == 'SMP Walisongo Pacet') {{ 'selected' }} @endif>SMP Walisongo Pacet
-                                        </option>
-                                        <option value="SMKS Walisongo Pacet" @if (old('lembaga') == 'SMKS Walisongo Pacet') {{ 'selected' }} @endif>SMKS Walisongo
-                                            Pacet</option>
-                                        <option value="Universitas" @if (old('lembaga') == 'Universitas') {{ 'selected' }} @endif>Universitas
-                                        </option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group row mt-4">
-                                <label class="col-sm-2 col-form-label col-form-label-sm">Jurusan</label>
-                                <div class="col-sm-3">
-                                    <select class="form-select form-select-sm" aria-label=".form-select-sm example"
-                                        name="jurusan">
-                                        <option selected disabled>Pilih Jurusan</option>
-                                        <option value="Tidak Ada" @if (old('jurusan') == 'Tidak Ada') {{ 'selected' }} @endif>Tidak Ada</option>
-                                        <option value="Kehutanan" @if (old('jurusan') == 'Kehutanan') {{ 'selected' }} @endif>Prodi Kehutanan</option>
-                                        <option value="Perbankan Syariah" @if (old('jurusan') == 'Perbankan Syariah') {{ 'selected' }} @endif>Prodi Perbankan
-                                            Syariah</option>
-                                        <option value="S1 Ekonomi Syariah" @if (old('jurusan') == 'S1 Ekonomi Syariah') {{ 'selected' }} @endif>S1 Ekonomi Syariah
-                                        </option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group row mt-4">
-                                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Ukuran
-                                    Seragam</label>
-                                <div class="col-sm-3">
-                                    <select class="form-select form-select-sm" aria-label=".form-select-sm example"
-                                        name="ukuran_seragam">
-                                        <option selected disabled>Pilih Ukuran</option>
-                                        <option @if (old('ukuran_seragam') == 'XXS') {{ 'selected' }} @endif value="XXS">XXS</option>
-                                        <option @if (old('ukuran_seragam') == 'XS') {{ 'selected' }} @endif value="XS">XS</option>
-                                        <option @if (old('ukuran_seragam') == 'S') {{ 'selected' }} @endif value="S">S</option>
-                                        <option @if (old('ukuran_seragam') == 'M') {{ 'selected' }} @endif value="M">M</option>
-                                        <option @if (old('ukuran_seragam') == 'L') {{ 'selected' }} @endif value="L">L</option>
-                                        <option @if (old('ukuran_seragam') == 'XL') {{ 'selected' }} @endif value="XL">XL</option>
-                                        <option @if (old('ukuran_seragam') == 'XXL') {{ 'selected' }} @endif value="XXL">XXL</option>
-                                        <option @if (old('ukuran_seragam') == 'XXXL') {{ 'selected' }} @endif value="XXXL">XXXL</option>
-                                    </select>
-                                </div>
-                            </div>
                             <div class="card-header mt-4">
                                 <strong>Akun Pendaftaran</strong>
                             </div>

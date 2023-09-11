@@ -18,20 +18,20 @@
     <!-- Style -->
     <link rel="stylesheet" href="{{ asset('loginPage/css/style.css') }}">
 
-    <title>Pendaftaran Santri Baru - Fatchul Ulum Pacet</title>
+    <title>Pendaftaran Siswa Baru - Darul Ulum Kenongo</title>
 </head>
 
 <body>
 
 
     <div class="d-lg-flex half">
-        <div class="bg order-1 order-md-2" style="background-image: url('loginPage/images/bg_1.png');"></div>
+        <div class="bg order-1 order-md-2" style="background-image: url('loginPage/images/bg-1.jpg');"></div>
         <div class="contents order-2 order-md-1">
 
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-7">
-                        <h3><strong>PSB Fatchul Ulum Pacet</strong></h3>
+                        <h3><strong>PSB Darul Ulum Kenongo</strong></h3>
                         <p class="mb-4">Silahkan masukkan username dan password.</p>
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
@@ -59,16 +59,6 @@
                                     </span>
                                 @enderror
                             </div>
-
-                            {{-- <div class="d-flex mb-5 align-items-center">
-                                <label class="control control--checkbox mb-0"><span class="caption">Remember
-                                        me</span>
-                                    <input type="checkbox" checked="checked" />
-                                    <div class="control__indicator"></div>
-                                </label>
-                                <span class="ml-auto"><a href="#" class="forgot-pass">Lupa
-                                        Password?</a></span>
-                            </div> --}}
                             <button type="submit" class="btn btn-block btn-success">
                                 {{ __('Login') }}
                             </button>

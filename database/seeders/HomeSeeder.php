@@ -16,7 +16,9 @@ class HomeSeeder extends Seeder
     {
         Home::create([
             'tanggal_pendaftaran' => '15 Februari - 29 Juni 2022',
-            'tempat_pendaftaran' => 'Kantor Yayasan Jl. Moch Sholeh No. 270 Pacet Mojokerto 61374',
+            'tempat_pendaftaran' => 'Kantor Sekolah
+            7H9C+MVJ Desa Kenongo, Sedan, Rembang
+            59264',
             'tanggal_daftar_ulang' => '30 Juni - 10 Juli 2022',
         ]);
     }

@@ -46,54 +46,6 @@
                 <div class="col">
                     <div class="card h-100 card border-success mb-3 text-center">
                         <div style="max-height:250px;overflow:hidden">
-                            @if ($data->ijazah)
-                                <img src="{{ asset('storage/' . $data->ijazah) }}" class="card-img-top"
-                                    alt="Ijazah Terakhir">
-                            @else
-                                <img src="{{ asset('assets/img/null.png') }}" class="card-img-top"
-                                    alt="Ijazah Terakhir">
-                            @endif
-                        </div>
-                        <div class="card-body">
-                            <h6 class="card-title font-weight-bold">Ijazah Terakhir</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 card border-success mb-3 text-center">
-                        <div style="max-height:250px;overflow:hidden">
-                            @if ($data->shun)
-                                <img src="{{ asset('storage/' . $data->shun) }}" class="card-img-top"
-                                    alt="SHUN Terakhir">
-                            @else
-                                <img src="{{ asset('assets/img/null.png') }}" class="card-img-top"
-                                    alt="Ijazah Terakhir">
-                            @endif
-                        </div>
-                        <div class="card-body">
-                            <h6 class="card-title font-weight-bold">SHUN Terakhir</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 card border-success mb-3 text-center">
-                        <div style="max-height:250px;overflow:hidden">
-                            @if ($data->nisn)
-                                <img src="{{ asset('storage/' . $data->nisn) }}" class="card-img-top"
-                                    alt="NISN Terakhir">
-                            @else
-                                <img src="{{ asset('assets/img/null.png') }}" class="card-img-top"
-                                    alt="Ijazah Terakhir">
-                            @endif
-                        </div>
-                        <div class="card-body">
-                            <h6 class="card-title font-weight-bold">NISN Terakhir</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 card border-success mb-3 text-center">
-                        <div style="max-height:250px;overflow:hidden">
                             @if ($data->ktp)
                                 <img src="{{ asset('storage/' . $data->ktp) }}" class="card-img-top"
                                     alt="KTP Orang Tua/Wali">

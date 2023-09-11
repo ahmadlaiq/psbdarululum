@@ -45,7 +45,8 @@
         <div class="container d-flex align-items-center justify-content-between">
 
             <div class="logo">
-                <h4><a href="/"><img src="assets/img/hero-img.png" alt=""><span>MI Darul Ulum Kenongo</span></a></h4>
+                <h4><a href="/"><img src="assets/img/hero-img.png" alt=""><span>MI Darul Ulum
+                            Kenongo</span></a></h4>
             </div>
 
             <nav id="navbar" class="navbar">
@@ -69,8 +70,7 @@
                                 </a>
 
 
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                    class="d-none">
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                     @csrf
                                 </form>
                             </div>
@@ -178,7 +178,8 @@
                                         data-original-title="2010">
                                         <div class="inner-circle"></div>
                                         <p class="h5 mt-3 mb-4">Pembayaran</p>
-                                        <p class="text-muted mb-0 mb-lg-0">Melakukan pembayaran biaya pendaftaran sesuai
+                                        <p class="text-muted mb-0 mb-lg-0">Melakukan pembayaran biaya pendaftaran
+                                            sesuai
                                             pendidikan yang telah dipilih.</p>
                                     </div>
                                 </div>
@@ -207,7 +208,8 @@
 
                 <div class="row content">
                     <div class="col-md-6 pt-5" data-aos="fade-right">
-                        <img src="assets/img/2.png" class="img-fluid" alt="" style="margin: 10px;
+                        <img src="assets/img/2.png" class="img-fluid" alt=""
+                            style="margin: 10px;
             
             border-top-left-radius: 40px;
             border-top-right-radius: 100px;
@@ -222,11 +224,13 @@
                             Untuk memenuhi persyaratan daftar ulang, ada beberapa berkas yang harus dibawa :
                         </p>
                         <ul>
-                            <li><i class="bi bi-check"></i> <strong>Photo Copy Akta Kelahiran Peserta Didik</strong></li>
+                            <li><i class="bi bi-check"></i> <strong>Photo Copy Akta Kelahiran Peserta Didik</strong>
+                            </li>
                             <p style="margin-left: 30px">sebanyak 5 lembar</p>
                             <li><i class="bi bi-check"></i> <strong>Photo Copy Kartu Keluarga (KK</strong>)</li>
                             <p style="margin-left: 30px">sebanyak 5 lembar</p>
-                            <li><i class="bi bi-check"></i> <strong>Photo Copy Ijazah terakhir Dilegalisir</strong></li>
+                            <li><i class="bi bi-check"></i> <strong>Photo Copy Ijazah terakhir Dilegalisir</strong>
+                            </li>
                             <p style="margin-left: 30px">sebanyak 5 lembar</p>
                             <li><i class="bi bi-check"></i> <strong>Photo Copy NISN</strong></li>
                             <p style="margin-left: 30px">sebanyak 5 lembar</p>
@@ -257,8 +261,8 @@
                         <div class="count-box">
                             <i class="bi bi-thermometer-half"></i>
                             <h4><strong>Checkup / Periksa Kesehatan</strong></h4>
-                            <p>Pemeriksaan kesehatan dari calon peserta didik oleh petugas kesehatan PPS Fatchul Ulum
-                                Pacet.</p>
+                            <p>Pemeriksaan kesehatan dari calon peserta didik oleh petugas kesehatan Darul Ulum
+                                Kenongo.</p>
                         </div>
                     </div>
 
@@ -270,18 +274,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
-                        <div class="count-box">
-                            <i class="bi bi-book"></i>
-                            <h4><strong>Ikrar Santri</strong></h4>
-                            <p>Melakukan Ikrar Santri dan kesediaan mengikuti aturan yang ditetapkan oleh MI Darul Ulum Kenongo.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row aos-init aos-animate" style="margin-top: 80px" data-aos="fade-up">
-
                     <div class="col-lg-4 col-md-6">
                         <div class="count-box">
                             <i class="bi bi-bag-check"></i>
@@ -290,23 +282,6 @@
                                 pendaftar.</p>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-                        <div class="count-box">
-                            <i class="bi bi-people"></i>
-                            <h4><strong>Sowan Pengasuh</strong></h4>
-                            <p>Penyerahan calon peserta didik oleh orangtua / wali kepada pengasuh</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
-                        <div class="count-box">
-                            <i class="bi bi-building"></i>
-                            <h4><strong>Asrama Santri</strong></h4>
-                            <p>Santri baru menempati asrama yang telah ditetepkan oleh pengurus.</p>
-                        </div>
-                    </div>
-
                 </div>
 
             </div>
@@ -345,17 +320,15 @@
                                         <p>Tanggal:</p>
                                         <p><strong>{{ $home->tanggal_daftar_ulang }}</strong></p>
                                         <p>Tempat Pendaftaran:</p>
-                                        <p><strong>Kantor Yayasan
-                                                Jl. Moch Sholeh No. 270
-                                                Pacet Mojokerto
-                                                61374</strong></p>
+                                        <p><strong>Kantor Sekolah
+                                            7H9C+MVJ Desa Kenongo, Sedan, Rembang
+                                            59264</strong></p>
                                     </div>
                                 </li>
 
                                 <li data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate">
-                                    <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
-                                        class="collapsed">Waktu Pelayanan:<i
-                                            class="bx bx-chevron-down icon-show"></i><i
+                                    <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Waktu
+                                        Pelayanan:<i class="bx bx-chevron-down icon-show"></i><i
                                             class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                                         <p>Pagi:</p>
@@ -369,7 +342,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 pt-3" data-aos="fade-right">
-                        <img src="assets/img/17.jpg" class="img-fluid" alt="" style="margin: 10px;
+                        <img src="assets/img/17.jpg" class="img-fluid" alt=""
+                            style="margin: 10px;
             
             border-top-left-radius: 100px;
             border-top-right-radius: 40px;
@@ -394,20 +368,15 @@
                         <div class="footer-info">
                             <h3>MI Darul Ulum Kenongo Rembang</h3>
                             <p>
-                                Jl. Moch. Sholeh No. 270 Dusun Pacet Utara Desa Kenongo, Sedan<br>
-                                Kabupaten Rembang, Jawa Tengah 61374<br><br>
-                                <strong>Telp:</strong> 0822-3444-8465<br>
-                                <strong>Email:</strong> midarululumkenongo@gmail.com <br>
+                                7H9C+MVJ Desa Kenongo, Sedan<br>
+                                Kabupaten Rembang, Jawa Tengah 59264<br><br>
+
                             </p>
                             <div class="social-links mt-3">
-                                <a href="#" class="twitter"><i
-                                        class="bx bxl-twitter"></i></a>
-                                <a href="#" class="facebook"><i
-                                        class="bx bxl-facebook"></i></a>
-                                <a href="#" class="instagram"><i
-                                        class="bx bxl-instagram"></i></a>
-                                <a href="#"
-                                    class="google-plus"><i class="bx bxl-youtube"></i></a>
+                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                <a href="#" class="google-plus"><i class="bx bxl-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -415,10 +384,9 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Call Center</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">0822-3444-8465<br>(Layanan Santri
-                                    Putra)</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">0856-4613-6134<br>(Layanan Santri
-                                    Putri)</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">0877-0503-2917<br>(Layanan
+                                    Pendaftaran
+                                    )</a></li>
                         </ul>
                     </div>
 

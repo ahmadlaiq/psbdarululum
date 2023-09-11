@@ -48,20 +48,6 @@
                             </div>
                         </div>
                         <div class="form-group row mt-4">
-                            <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm text-dark">Ijazah
-                                Terakhir</label>
-                            <div class="col-sm-4">
-                                <input type="file" class="form-control form-control-sm" name="ijazah">
-                            </div>
-                        </div> 
-                        <div class="form-group row mt-4">
-                            <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm text-dark">NISN
-                                Terakhir</label>
-                            <div class="col-sm-4">
-                                <input type="file" class="form-control form-control-sm" name="nisn">
-                            </div>
-                        </div>
-                        <div class="form-group row mt-4">
                             <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm text-dark">KTP
                                 Orang
                                 Tua/Wali</label>

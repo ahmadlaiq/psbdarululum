@@ -3,7 +3,7 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
-        <div class="sidebar-brand-text mx-3">PPS Fatchul Ulum Pacet</div>
+        <div class="sidebar-brand-text mx-3">Darul Ulum Kenongo</div>
     </a>
 
     <!-- Divider -->

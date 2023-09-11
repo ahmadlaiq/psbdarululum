@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pendaftaran Santri Baru - Fatchul Ulum Pacet</title>
+    <title>Pendaftaran Siwa Baru - Darul Ulum Kenongo</title>
 
     <!-- Favicons -->
     <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
@@ -50,7 +50,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; PPS Facthul Ulum Pacet  2022</span>
+                        <span>Copyright &copy; Darul Ulum Kenongo  2023</span>
                     </div>
                 </div>
             </footer>

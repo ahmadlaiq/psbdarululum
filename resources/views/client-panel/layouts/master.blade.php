@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pendaftaran Santri Baru - Fatchul Ulum Pacet</title>
+    <title>Pendaftaran Siswa Baru - Darul Ulum Kenongo</title>
 
     <!-- Custom fonts for this template-->
     <link href="{{ asset('adminPage/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
@@ -47,7 +47,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; PPS Facthul Ulum Pacet  2022</span>
+                        <span>Copyright &copy;Darul Ulum Kenongo  2023</span>
                     </div>
                 </div>
             </footer>

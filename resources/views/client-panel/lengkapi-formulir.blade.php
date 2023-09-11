@@ -13,7 +13,7 @@
             @csrf
             <div class="card">
                 <div class="card-header text-dark">
-                    <strong>Biodata Calon Santri</strong>
+                    <strong>Biodata Calon Siswa</strong>
                 </div>
                 <div class="card-body">
                     <div class="form-group row mt-2">

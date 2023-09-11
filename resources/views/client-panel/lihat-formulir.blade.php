@@ -15,7 +15,7 @@
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item">
                 <a class="nav-link active" id="dataSantri-tab" data-toggle="pill" href="#dataSantri" role="tab"
-                    aria-controls="dataSantri" aria-selected="true">Biodata Santri</a>
+                    aria-controls="dataSantri" aria-selected="true">Biodata Siswa</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="dataAyah-tab" data-toggle="pill" href="#dataAyah" role="tab"
@@ -29,10 +29,7 @@
                 <a class="nav-link" id="dataWali-tab" data-toggle="pill" href="#dataWali" role="tab"
                     aria-controls="dataWali" aria-selected="false">Biodata Wali</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" id="dataWali-tab" data-toggle="pill" href="#dataPendidikan" role="tab"
-                    aria-controls="#dataPendidikan" aria-selected="false">Rencana Pendidikan</a>
-            </li>
+            
         </ul>
         <div class="container">
             <div class="tab-content" id="pills-tabContent">
@@ -162,120 +159,6 @@
                                     <div class="col-sm-4">
                                         <input type="text" class="form-control form-control-sm"
                                             value="{{ $data->nomor_hp }}" disabled>
-                                    </div>
-                                </div>
-                                <hr class="mt-3 mb-3" />
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Nomor Peserta Ujian
-                                        Nasional</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->nomor_un }}" disabled>
-                                    </div>
-                                </div>
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Pendidikan Non-Formal
-                                        Terakhir</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->pendidikan_nonformal }}" disabled>
-                                    </div>
-                                </div>
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Nama
-                                        Lembaga Pendidikan</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->nama_lembaga }}" disabled>
-                                    </div>
-                                </div>
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Alamat
-                                        Lembaga
-                                        Pendidikan</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->alamat_lembaga }}" disabled>
-                                    </div>
-                                </div>
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Tahun
-                                        Lulus</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->tahun_lulus }}" disabled>
-                                    </div>
-                                </div>
-                                <hr class="mt-3 mb-3" />
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Tanggal,Bulan Tahun
-                                        Masuk pesantren</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ date('d-m-Y', strtotime($data->tanggal_masuk_pesantren)) }}"
-                                            disabled>
-                                    </div>
-                                </div>
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Jenis
-                                        Pendidikan
-                                        Tambahan</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->pendidikan_tambahan }}" disabled>
-                                    </div>
-                                </div>
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Pendidikan
-                                        Formal</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->pendidikan_formal }}" disabled>
-                                    </div>
-                                </div>
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Kelas
-                                        Pendidikan
-                                        Formal</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->kelas_pendidikan_formal }}" disabled>
-                                    </div>
-                                </div>
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Pendidikan
-                                        Diniyyah</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->diniyyah }}" disabled>
-                                    </div>
-                                </div>
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Kelas
-                                        Pendidikan
-                                        Diniyyah</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->kelas_diniyyah }}" disabled>
-                                    </div>
-                                </div>
-                                <hr class="mt-3 mb-3" />
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Nama
-                                        Kepala
-                                        Keluarga</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->nama_kepala_keluarga }}" disabled>
-                                    </div>
-                                </div>
-                                <div class="form-group row mt-4">
-                                    <label class="col-sm-2 col-form-label col-form-label-sm text-dark">Status
-                                        Kepala
-                                        Keluarga</label>
-                                    <div class="col-sm-4">
-                                        <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->status_kepala_keluarga }}" disabled>
                                     </div>
                                 </div>
                         </div>
