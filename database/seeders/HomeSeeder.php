@@ -20,6 +20,7 @@ class HomeSeeder extends Seeder
             7H9C+MVJ Desa Kenongo, Sedan, Rembang
             59264',
             'tanggal_daftar_ulang' => '30 Juni - 10 Juli 2022',
+            'link_wa' => 'https://chat.whatsapp.com/HUbkksjs4w7FWFuHhYn7p2',
         ]);
     }
 }
