@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Pendaftaran Siswa Baru - MI Darul Ulum Kenongo</title>
+    <title>Pendaftaran Siswa Baru - MI Darul Ulum Rembang</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -46,7 +46,7 @@
 
             <div class="logo">
                 <h4><a href="/"><img src="assets/img/hero-img.png" alt=""><span>MI Darul Ulum
-                            Kenongo</span></a></h4>
+                            Rembang</span></a></h4>
             </div>
 
             <nav id="navbar" class="navbar">
@@ -90,8 +90,8 @@
             <div class="row justify-content-between">
                 <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
                     <div data-aos="zoom-out">
-                        <h1>Pendaftaran Siswa Baru <span>MI Darul Ulum Kenongo</span></h1>
-                        <h2>MI Darul Ulum Kenongo Rembang Menerima Pendaftaran Peserta Didik
+                        <h1>Pendaftaran Siswa Baru <span>MI Darul Ulum Rembang</span></h1>
+                        <h2>MI Darul Ulum Rembang Rembang Menerima Pendaftaran Peserta Didik
                             Baru<br><strong>Tahun Ajaran 2023-2024</strong></h2>
                         <div class="text-center text-lg-start">
                             <a href="/daftar" class="btn-get-started scrollto">Daftar Sekarang</a>
@@ -256,7 +256,7 @@
                             <i class="bi bi-thermometer-half"></i>
                             <h4><strong>Checkup / Periksa Kesehatan</strong></h4>
                             <p>Pemeriksaan kesehatan dari calon peserta didik oleh petugas kesehatan Darul Ulum
-                                Kenongo.</p>
+                                Rembang.</p>
                         </div>
                     </div>
 
@@ -315,7 +315,7 @@
                                         <p><strong>{{ $home->tanggal_daftar_ulang }}</strong></p>
                                         <p>Tempat Pendaftaran:</p>
                                         <p><strong>Kantor Sekolah
-                                            7H9C+MVJ Desa Kenongo, Sedan, Rembang
+                                            7H9C+MVJ Desa Rembang, Sedan, Rembang
                                             59264</strong></p>
                                     </div>
                                 </li>
@@ -360,9 +360,9 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div class="footer-info">
-                            <h3>MI Darul Ulum Kenongo Rembang</h3>
+                            <h3>MI Darul Ulum Rembang Rembang</h3>
                             <p>
-                                7H9C+MVJ Desa Kenongo, Sedan<br>
+                                7H9C+MVJ Desa Rembang, Sedan<br>
                                 Kabupaten Rembang, Jawa Tengah 59264<br><br>
 
                             </p>
@@ -399,7 +399,7 @@
 
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>MI Darul Ulum Kenongo</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>MI Darul Ulum Rembang</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->

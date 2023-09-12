@@ -18,7 +18,7 @@
     <!-- Style -->
     <link rel="stylesheet" href="{{ asset('loginPage/css/style.css') }}">
 
-    <title>Pendaftaran Siswa Baru - Darul Ulum Kenongo</title>
+    <title>Pendaftaran Siswa Baru - Darul Ulum Rembang</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-7">
-                        <h3><strong>PSB Darul Ulum Kenongo</strong></h3>
+                        <h3><strong>PSB Darul Ulum Rembang</strong></h3>
                         <p class="mb-4">Silahkan masukkan username dan password.</p>
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
