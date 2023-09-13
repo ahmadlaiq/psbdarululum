@@ -15,7 +15,7 @@
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="dataSantri-tab" data-toggle="pill" href="#dataSantri" role="tab"
-                        aria-controls="dataSantri" aria-selected="true">Biodata Santri</a>
+                        aria-controls="dataSantri" aria-selected="true">Biodata Siswa</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="dataAyah-tab" data-toggle="pill" href="#dataAyah" role="tab"

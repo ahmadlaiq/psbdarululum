@@ -36,7 +36,7 @@
                 <div class="tab-pane fade show active" id="dataSantri" role="tabpanel" aria-labelledby="dataSantri-tab">
                     <div class="card">
                         <div class="card-header text-dark">
-                            <strong>Biodata Calon Santri</strong>
+                            <strong>Biodata Calon Siswa</strong>
                         </div>
                         <div class="card-body">
                             @foreach ($dataUser as $data)
