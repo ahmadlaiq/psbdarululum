@@ -42,17 +42,11 @@ class FormulirController extends Controller
             'tanggal_lahir'             => 'required',
             'anak_ke'                   => 'required',
             'tinggal_bersama'           => 'required',
-            'pendidikan_terakhir'       => 'required',
             'provinsi'                  => 'required',
             'kabupaten'                 => 'required',
             'kecamatan'                 => 'required',
             'alamat'                    => 'required',
             'kode_pos'                  => 'required|digits:5',
-            'mondok'                    => 'required',
-            'jenis_pendaftaran'         => 'required',
-            'lembaga'                   => 'required',
-            'jurusan'                   => 'required',
-            'ukuran_seragam'            => 'required',
         ]);
 
         $validate_account = $request->validate([

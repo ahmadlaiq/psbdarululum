@@ -133,49 +133,14 @@ class BiodataController extends Controller
             'kecamatan'                 => '',
             'alamat'                    => '',
             'kode_pos'                  => 'digits:5',
-            'mondok'                    => '',
-            'jenis_pendaftaran'         => '',
-            'lembaga'                   => '',
-            'jurusan'                   => '',
-            'ukuran_seragam'            => '',
         ]);
 
         // dd($id);
         $validatedBiodata = $request->validate([
             'pendidikan_nonformal'      => '',
             'nama_lembaga'              => '',
-            // 'alamat_lembaga'            => '',
-            // 'tahun_lulus'               => '',
-            // 'tanggal_masuk_pesantren'   => '',
-            // 'pendidikan_tambahan'       => '',
-            // 'pendidikan_formal'         => '',
-            // 'kelas_pendidikan_formal'   => '',
-            // 'diniyyah'                  => '',
-            // 'kelas_diniyyah'            => '',
-            // 'nama_kepala_keluarga'      => '',
-            // 'status_kepala_keluarga'    => '',
-            // 'nama_ayah'                 => '',
-            // 'status_ayah'               => '',
-            // 'nik_ayah'                  => 'digits:16',
-            // 'tanggal_lahir_ayah'        => '',
-            // 'pendidikan_ayah'           => '',
-            // 'pekerjaan_ayah'            => '',
-            // 'penghasilan_ayah'          => '',
-            // 'nomor_hp_ayah'             => 'digits_between:11,13',
-            // 'nama_ibu'                  => '',
-            // 'status_ibu'                => '',
-            // 'nik_ibu'                   => 'digits:16',
-            // 'tanggal_lahir_ibu'         => '',
-            // 'pendidikan_ibu'            => '',
-            // 'pekerjaan_ibu'             => '',
-            // 'penghasilan_ibu'           => '',
-            // 'nomor_hp_ibu'              => 'digits_between:11,13',
-        ]);
-        // dd($id);
 
-        // dd($validatedBiodata);
-        // Biodata::find($id)->update($validatedBiodata);
-        // Formulir::find($id)->update($validatedFormulir);
+        ]);
         Biodata::where('id', $id)
             ->update($validatedBiodata);
 
