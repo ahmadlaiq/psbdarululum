@@ -86,10 +86,15 @@
                                 <div class="form-group row mt-4">
                                     <label class="col-sm-2 col-form-label col-form-label-sm">Tanggal Lahir</label>
                                     <div class="col-sm-4">
-                                        {{-- <input type="text" class="form-control form-control-sm"
-                                            value="{{ $data->tanggal_lahir }}" disabled> --}}
                                         <input type="text" class="form-control form-control-sm"
                                             value="{{ date('d-m-Y', strtotime($data->tanggal_lahir)) }}" disabled>
+                                    </div>
+                                </div>
+                                <div class="form-group row mt-4">
+                                    <label class="col-sm-2 col-form-label col-form-label-sm">Umur</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control form-control-sm"
+                                            value="{{ $data->umur }}" disabled>
                                     </div>
                                 </div>
                                 <hr class="mt-3 mb-3" />

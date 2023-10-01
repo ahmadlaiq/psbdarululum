@@ -24,6 +24,7 @@ class CreateFormulirsTable extends Migration
             $table->enum('jenis_kelamin', ['Laki-laki', 'Perempuan'])->nullable();
             $table->string('tempat_lahir')->nullable();
             $table->date('tanggal_lahir')->nullable();
+            $table->integer('umur')->nullable();
             $table->tinyInteger('anak_ke')->nullable();
             $table->string('tinggal_bersama')->nullable();
             $table->string('pendidikan_terakhir')->nullable();

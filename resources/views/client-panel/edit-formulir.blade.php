@@ -128,6 +128,13 @@
                                                 value="{{ old('tanggal_lahir', $data->tanggal_lahir) }}" required>
                                         </div>
                                     </div>
+                                    <div class="form-group row mt-4">
+                                        <label class="col-sm-2 col-form-label col-form-label-sm">Umur</label>
+                                        <div class="col-sm-4">
+                                            <input type="number" class="form-control form-control-sm" name="umur"
+                                                value="{{ old('umur', $data->umur) }}" required>
+                                        </div>
+                                    </div>
                                     <hr class="mt-3 mb-3" />
                                     <div class="form-group row mt-4">
                                         <label class="col-sm-2 col-form-label col-form-label-sm">Anak ke</label>
