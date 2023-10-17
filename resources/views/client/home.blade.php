@@ -87,6 +87,11 @@
     <section id="hero">
 
         <div class="container">
+            @if (session('success'))
+                <div class="alert alert-success" id="myAlert">
+                    {{ session('success') }}
+                </div>
+            @endif
             <div class="row justify-content-between">
                 <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
                     <div data-aos="zoom-out">
@@ -233,7 +238,7 @@
                             <p style="margin-left: 30px">sebanyak 5 lembar</p>
                             <li><i class="bi bi-check"></i> <strong>Pas Photo 3x4 Backround Merah</strong></li>
                             <p style="margin-left: 30px">sebanyak 5 lembar</p>
-                            
+
                         </ul>
                     </div>
                 </div>
@@ -315,8 +320,8 @@
                                         <p><strong>{{ $home->tanggal_daftar_ulang }}</strong></p>
                                         <p>Tempat Pendaftaran:</p>
                                         <p><strong>Kantor Sekolah
-                                            7H9C+MVJ Desa Rembang, Sedan, Rembang
-                                            59264</strong></p>
+                                                7H9C+MVJ Desa Rembang, Sedan, Rembang
+                                                59264</strong></p>
                                     </div>
                                 </li>
 

@@ -71,7 +71,7 @@ class FormulirController extends Controller
         ]);
         Auth::loginUsingId($user->id);
 
-        return redirect()->route('join.wa');
+        return redirect('/')->with('success', 'Akun berhasil dibuat, silahkan menuju dashboard dan upload berkas pendaftaran.');
     }
 
     public function show(Formulir $formulir)
