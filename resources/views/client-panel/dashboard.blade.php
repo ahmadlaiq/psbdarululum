@@ -40,9 +40,7 @@
                                 src="{{ asset('adminPage/img/success.svg') }}" alt="...">
                         </div>
                         <p class="text-center">Selamat <strong>{{ Auth::user()->formulir->nama }}</strong>
-                            Dinyatakan <span class="text-success">Lulus</span> Sebagai Calon Santri Baru <strong>PPS
-                                Fatchul
-                                Ulum Pacet</strong> <br>Silahkan Cetak Bukti Pendaftaran Berikut.</p>
+                            Dinyatakan <span class="text-success">Lulus</span> Sebagai Calon Siswa Baru <br>Silahkan Cetak Bukti Pendaftaran Berikut.</p>
                     </div>
                     <div class="card-footer text-center">
                         <a href="{{ route('cetak') }}" class="btn btn-success"><i
