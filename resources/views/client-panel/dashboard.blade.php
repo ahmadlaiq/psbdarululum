@@ -21,7 +21,7 @@
                             <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
                                 src="{{ asset('assets/img/a.jpg') }}" alt="...">
                         </div>
-                        <p class="text-center">Silahkan transfer ke nomor rekening berikut untuk mencetak bukti pendaftaran: <br>
+                        {{-- <p class="text-center">Silahkan transfer ke nomor rekening berikut untuk mencetak bukti pendaftaran: <br> --}}
                         <strong>{{ $home->nama_rekening }} <br>{{ $home->no_rekening }}</strong> 
                         </p>
                     </div>
